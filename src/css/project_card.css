@@ -1,0 +1,122 @@
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    justify-items: center;
+    row-gap: 25px;
+}
+.project-card{
+    width: auto;
+    position: relative;
+    max-width: 300px;  
+    border: 2px solid #cbdbff;
+}
+.project-card-git{
+    width: auto;
+    position: relative;
+    max-width: 300px;  
+    border: 2px solid #000000;
+    position: relative;
+
+}
+.project-card-git img{
+    max-width: 280px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+  }
+.project-card-txt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.project-card img{
+    max-width: 280px;
+    text-align: center;
+    padding: 10px;
+}
+.tag{
+  position: absolute;
+  top: -25px;
+  right: 2px;
+  background: linear-gradient(to right, #0044e1, #00297a);
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #d6e2ff; 
+  border-radius: 5px;
+  
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fadeOut{
+  animation: fadeOut 0.5s ease-out forwards;
+}
+.show{
+  display: block;  
+  animation: fadeIn 0.5s ease-out forwards;
+  
+}
+.card-ach{
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border-left: 5px solid #0044e1;
+}
+.card-ach p{
+  padding: 5px;
+}
+.com-name{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #000; 
+}
+.com-status{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #000; 
+}
+.com-date{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #1b1b1b; 
+}

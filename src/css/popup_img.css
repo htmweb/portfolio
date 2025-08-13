@@ -1,0 +1,34 @@
+.popupImg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.812);
+    z-index: 3;
+    top: 0;
+    margin: 0 auto;
+}
+.imgCon{ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgCon img{
+    max-width: 95%;
+    max-height: 95vh;
+}
+.closeWrap{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    right: 10px;
+    top: 10px;
+}
+.close{
+   font-size: 2rem;
+   color: #fff;
+   cursor: pointer;
+}
