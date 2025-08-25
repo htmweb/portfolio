@@ -1,21 +1,16 @@
 import React from 'react'
+import pic from '../assets/pic.png'
 function MainHeading() {
   return (
     <div>
       <div className="main_head">
         <div className='main_c '>
             <div className="img_c">
+               <img src={pic} className='pic' />
             <div className="img"> 
+             
             </div>
-            <p style={
-              {
-                color: 'rgb(200, 255, 255)',
-                textAlign: 'center',
-                fontSize: '0.8rem',
-              }
-            }>Designed by <a href="https://www.freepik.com" style={{
-              color: 'rgb(0, 200, 255)',
-            }}>Freepik</a></p>
+            
             </div>
 
             <div className="container">
